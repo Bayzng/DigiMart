@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow&display=swap');
+
+
+@media screen and (min-width: 350px) {
+
+    .Hero {
+        margin-top: 3rem;
+    }
+
+    .Hero h1 {
+        margin-top: 5rem;
+        margin-left: 3rem;
+        font-size: 3rem;
+        position: absolute;
+        z-index: 3;
+    }
+
+
+    .Hero-header h3 {
+        font-size: 4rem;
+        position: absolute;
+        top: 20rem;
+        z-index: 1;
+        font-family: "Jacques Francois Shadow", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .Hero-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Hero-header img {
+        width: 17rem;
+        position: relative;
+        z-index: 2;
+    }
+
+    .Hero-btn {
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        z-index: 4;
+    }
+
+    .Hero-btn button {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 5px;
+        background-color: #a25a1d;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .Hero-btn button:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1050px) {
+
+    .Hero {
+        margin-top: 3rem;
+    }
+
+    .Hero h1 {
+        margin-top: 5rem;
+        margin-left: 6rem;
+        font-size: 8rem;
+        position: absolute;
+        z-index: 3;
+    }
+
+
+    .Hero-header h3 {
+        font-size: 8rem;
+        position: absolute;
+        top: 25rem;
+        left: 28rem;
+        z-index: 1;
+        font-family: "Jacques Francois Shadow", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .Hero-header {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Hero-header img {
+        width: 28rem;
+        position: relative;
+        z-index: 2;
+    }
+
+    .Hero-btn {
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        z-index: 4;
+    }
+
+    .Hero-btn button {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 5px;
+        background-color: #a25a1d;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .Hero-btn button:hover {
+        background-color: black;
+        color: white;
+    }
+}
